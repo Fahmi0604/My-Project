@@ -1,0 +1,236 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* ELEMEN NAVIGASI BAR */
+
+div.navbar {
+	/*background-image: linear-gradient(to left, #33ccff,#80dfff);*/
+	background-color: #33ccff;
+	height: 50px;	
+	width: 100%;
+	position: fixed;
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.4);
+}
+
+#logo {
+	width: 135px;
+	margin: 10px;
+	padding-left: 10px;
+	text-decoration: none;
+}
+
+.menu {
+  display: inline;
+  position: absolute;
+  right: 40px;
+  bottom: 10%;
+  box-shadow: 0px, 1px, 1px, rgba(0,0,0,5);
+}
+
+.isi {
+	float: left;
+	list-style-type: none;
+	text-align: center;
+	padding: 10px;
+	font-family: calibri;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.menu a {
+	text-decoration: none;
+	color: black;
+}
+
+/* ELEMEN GAMBAR AWAL */
+
+.gambar {
+	background-image: url('stu1.png');
+	background-position: center;
+	position: static;
+	width: 1349px;
+	height: 515px;
+	box-shadow: 0px 3px 3px rgba(0,0,0,0.8);
+}
+
+
+/*.tombol {
+  background:#2C97DF;
+  color:white;
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  border-bottom:5px solid #2A80B9;
+  padding:10px 20px;
+  text-decoration:none;
+  font-family:sans-serif;
+  font-size:11pt;
+  position: absolute;
+}*/
+
+
+#judul {
+	color: black;
+	font-family: calibri;
+	font-size: 40px;
+	font-weight: 600;
+	padding-top: 51px;
+	padding-left: 542px;
+	
+}
+
+#ikon {
+	width: 150px;
+	height: 150px;
+	padding-top: 220px;
+	padding-left: 100px;
+	margin-right: 162px;
+	margin-left: 35px;
+}
+
+#isiKata1 {
+	color: black;
+	font-family: calibri;
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-left: 130px;
+	position: absolute;
+	text-align: center;
+}
+
+#isiKata1 a {
+	text-decoration: none;
+	color: black;
+}
+
+#isiKata2 {
+	color: black;
+	font-family: calibri;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 10px;
+	padding-left: 570px;
+	position: absolute;
+}
+
+#isiKata3 {
+	color: black;
+	font-family: calibri;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 1px;
+	padding-left: 1030px;
+	position: absolute;
+}
+
+.slide {
+	width: 1350px;
+	height: 450px;
+	margin-top: 400px;
+}
+
+#QR {
+	width: 120px;
+	height: 120px;
+	position: absolute;
+	margin-top: 250px;
+	margin-left: 500px;
+}
+
+.or {
+	color: white;
+	font-size: 30px;
+	position: absolute;
+	font-family: calibri;
+	font-weight: bold;
+	margin-top: 290px;
+	margin-left: 645px;
+
+}
+
+#app {
+	width: 150px;
+	height: 130px;
+	position: absolute;
+	margin-top: 245px;
+	margin-left: 700px;
+}
+
+#isi-slide {
+	color: white;
+	font-size: 40px;
+	position: absolute;
+	font-family: calibri;
+	font-weight: bold;
+	margin-top: 50px;
+	margin-left: 500px;
+}
+
+/* ELEMEN FOOTER */ 
+
+.footer {
+	background-image: url('footer1.png');
+	width: 100%;
+	height: 250px;
+	margin-top: 400px;
+}
+
+#gambar-bawah {
+	width: 155px;
+	margin-top: 70px;
+	margin-left: 260px;
+	position: absolute;
+}
+
+#penjelasan {
+	font-size: 20px;
+	color: white;
+	font-family: calibri;
+	font-weight: bold;
+	padding-top: 130px;
+	padding-left: 220px;
+}
+
+#judul-kontak {
+	color: white;
+	font-size: 30px;
+	font-family: calibri;
+	font-weight: bold;
+	margin-left: 870px;
+	margin-top: -200px;
+}
+
+#kontak {
+	color: white;
+	font-size: 20px;
+	font-family: calibri;
+	margin-left: 850px;
+	margin-top: 20px;
+}
+
+.term {
+	background-color: #666666;
+	width: 100%;
+	height: 50px;	
+	margin-top: 25px;
+}
+
+#p {
+	color: white;
+	font-size: 13px;
+	padding-top: 17px;
+	padding-left: 20px;
+}
+
+#copy {
+	color: #a6a6a6;
+	font-family: calibri;
+	font-size: 15px;
+	padding-left: 600px; 
+	margin-top: -17px;
+}

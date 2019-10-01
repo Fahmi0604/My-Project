@@ -7,7 +7,7 @@
 
 div.navbar {
 	/*background-image: linear-gradient(to left, #33ccff,#80dfff);*/
-	background-color: #33ccff;
+	background-color: white;
 	height: 50px;	
 	width: 100%;
 	position: fixed;
